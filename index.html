@@ -1,15 +1,31 @@
 <!DOCTYPE!>
 <html lang = "en">
     <head>
-            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
            <link href = "CSS/main.css" rel = "stylesheet" type = "text/css" >
            <meta charset="UTF-8"> 
            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
-        <div class="container-fluid">
+      
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()">open</span>
+          
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <div id="main">
+            ...
+          </div>
+      
+      <div class="container-fluid">
             <div class="row">
                 <div class="jumbotron">
                     <div class="text-center">
@@ -166,11 +182,11 @@ width: 102%;background:#eee;">
 <!-- THIRD ROW -->
 
 <!-- BOTTOM PART -->
-<!-- initialize container in fluid for Testimonial section -->
+
 <div class="container clearance clearfix">
         <div class="col-md-10 col-md-offset-1 text-center stories">
       
-      <!-- Start Testimonial column break -->
+
       <div class="col-sm-7" style="border-right:1px solid #efefef;">
         <h3>Our Happy Customers</h3>
         <h5>George Richard</h5>
@@ -188,7 +204,7 @@ width: 102%;background:#eee;">
         </div>
         </div>
       
-      </div><!-- End column break for testimonials -->
+      </div>
       
       
       <!-- Start About Menu div class section -->
@@ -200,13 +216,12 @@ width: 102%;background:#eee;">
           </div><!-- End About Menu column -->
       
         </div>
-        <!-- Close col-md-8 div star -->
-        </div><!-- Dont worry; container fluid closed -->
+        </div>
       
       
       
       
-      <div class="container-fluid clearance"><!-- Website section for email subscription with Mailchimp Integration -->
+      <div class="container-fluid clearance">
         <div class="row subscribe">
         <div class="col-md-offset-2 col-md-8 text-center" >
           <!-- Begin MailChimp Signup Form -->
@@ -235,10 +250,10 @@ width: 102%;background:#eee;">
           </div><!-- End column 12 for elements in footer -->
       
       
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/scripts.js"></script>
-      <!-- Global Site Tag (gtag.js) - Google Analytics -->
+      <script src = "JS/jquery-3.3.1.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="JS/scripts.js"></script>
+      <!-- Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52368657-7"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
