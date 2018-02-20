@@ -1,4 +1,4 @@
-#Restaurant Website Recreation
+# Restaurant Website Recreation
 Recreated Restaurant Menu Website as stipulated by Moringa school (for the most part)
 
 ## Creation Date
